@@ -1,7 +1,7 @@
-// console.log(`Esta linha é um comentário.`);
-console.log(`Esta é a segunda linha.`);
+// console.log("This line is a comment.");
+console.log("This is the second line.");
 /*
-console.log(`Este bloco é um comentário.`);
-console.log(`Este bloco é um comentário.`);
-console.log(`Este bloco é um comentário.`);
+console.log("This block is a comment.");
+console.log("This block is a comment.");
+console.log("This block is a comment.");
 */
