@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demonstração de Métodos de String</title>
+</head>
+
+<body>
+    <div id="resultado"></div>
+    <script>
+        // Pede o nome do usuário
+        const nome = prompt("Digite seu nome:");
+
+        // Cria um elemento para exibir os resultados
+        const resultadoDiv = document.getElementById('resultado');
+
+        // Função para adicionar uma nova linha com o resultado de um método
+        function adicionarResultado(mensagem) {
+            const novoParagrafo = document.createElement('p');
+            novoParagrafo.textContent = mensagem;
+            resultadoDiv.appendChild(novoParagrafo);
+        }
+
+        // Aplica os métodos de string e exibe os resultados
+        adicionarResultado("Seu nome em maiúsculas: " + nome.toUpperCase());
+        adicionarResultado("Seu nome em minúsculas: " + nome.toLowerCase());
+
+    </script>
+</body>
+
+</html>
